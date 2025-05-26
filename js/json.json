@@ -1,0 +1,79 @@
+[
+    {
+      "id": 0,
+      "img": "image/project 1.jpeg",
+      "name": "project 1",
+      "skill": "HTML,CSS",
+      "link": "https://mostafa-eskander.github.io/Coffetto/"
+    },
+    {
+      "id": 1,
+      "img": "image/project 2.jpeg",
+      "name": "project 2",
+      "skill": "HTML,CSS",
+      "link": "https://mostafa-eskander.github.io/project1/"
+    },
+    {
+      "id": 2,
+      "img": "image/project 3.jpeg",
+      "name": "project 3",
+      "skill": "HTML,CSS",
+      "link": "https://mostafa-eskander.github.io/project3/"
+    },
+    {
+      "id": 3,
+      "img": "image/project 6.jpeg",
+      "name": "project 4",
+      "skill": "HTML,CSS",
+      "link": "https://mostafa-eskander.github.io/project2/"
+    },
+    {
+        "id": 4,
+        "img": "image/project 4.jpeg",
+        "name": "project 5",
+        "skill": "HTML,CSS,JS",
+        "link": "https://mostafa-eskander.github.io/calculator/"
+    },
+    {
+      "id": 5,
+      "img": "image/project 5.jpeg",
+      "name": "project 6",
+      "skill": "HTML,CSS,JS",
+      "link": "https://mostafa-eskander.github.io/cruds/"
+    },
+    {
+      "id": 6,
+      "img": "image/project 7.jpeg",
+      "name": "project 7",
+      "skill": "HTML,CSS,JS",
+      "link": "https://mostafa-eskander.github.io/Clock-Stopwatch/"
+    },
+    {
+      "id": 7,
+      "img": "image/project 9.jpeg",
+      "name": "project 9",
+      "skill": "HTML,CSS,JS",
+      "link": "https://mostafa-eskander.github.io/guess-the-number/"
+    },
+    {
+      "id": 8,
+      "img": "image/project 10.jpeg",
+      "name": "project 10",
+      "skill": "HTML,CSS,JS",
+      "link": "https://mostafa-eskander.github.io/Random-Password-Generator/"
+    },
+    {
+      "id": 9,
+      "img": "image/project 11.jpeg",
+      "name": "project 11",
+      "skill": "HTML,CSS,JS",
+      "link": "https://mostafa-eskander.github.io/e-commerce/"
+    },
+    {
+      "id": 10,
+      "img": "image/project 8.jfif",
+      "name": "project 11",
+      "skill": "HTML,CSS,Bootstrap",
+      "link": "https://mostafa-eskander.github.io/project-4/"
+    }
+]
