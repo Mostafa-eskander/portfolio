@@ -1,0 +1,131 @@
+.landing {
+    background: var(--bg-color);
+    padding: 150px 0 100px;
+}
+.container {
+    max-width: 800px;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.container h4 {
+    color: var(--main-color);
+    font-size: 22px;
+    animation: uptotop 1s;
+}
+.container h3 {
+    font-size: 60px;
+    margin: 20px 0 10px;
+    color: var(--font-color);
+    animation: uptotop 1s;
+}
+.container h2 {
+    font-size: 50px;
+    color: var(--main-color);
+    animation: uptotop 1s;
+}
+.container h5 {
+    font-size: 30px;
+    margin: 20px 0;
+    color: var(--foreground);
+    animation: uptotop 1s;
+}
+.container p {
+    color: var(--foreground);
+    font-size: 18px;
+    line-height: 25px;
+    animation: uptotop 1s;
+}
+.button {
+    margin: 40px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    animation: uptotop 2s;
+}
+.projectBtn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--black-color);
+}
+.projectBtn:hover svg {
+    animation: to-right .5s infinite;
+}
+.downlaodBtn {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--button-bg);
+    border-radius: 5px;
+    color: var(--white-color);
+    transition: var(--main-transition);
+}
+.downlaodBtn:hover svg {
+    animation: up-down .5s infinite;
+}
+.downlaodBtn:hover{
+    color: var(--main-color);
+}
+
+
+/* animation */
+@keyframes up-down {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(2px);
+    }
+}
+@keyframes uptotop {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes to-right {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(2px);
+    }
+}
+
+/* response */
+@media (max-width: 550px) {
+    .container {
+        max-width: 100%;
+    }
+    .container h4 {
+        font-size: 18px;
+    }
+    .container h3 {
+        font-size: 30px;
+    }
+    .container h2 {
+        font-size: 25px;
+    }
+    .container h5 {
+        font-size: 18px;
+    }
+    .container p {
+        font-size: 16px;
+    }
+    .button {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+}
+

@@ -1,0 +1,40 @@
+.allProjects {
+    background-color: var(--bg-color);
+    padding: 150px 0 100px;
+}
+.heroSection {
+    margin: 0 auto 150px;
+    animation: uptotop 1s ease;
+}
+.projects {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    animation: uptotop 1s ease;
+}
+.project {
+    width: 30%;
+}
+
+@media (max-width: 992px) {
+    .project {
+        width: 45%;
+    }
+}
+@media (max-width: 700px) {
+    .project {
+        width: 100%;
+    }
+}
+
+@keyframes uptotop {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

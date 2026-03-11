@@ -1,0 +1,29 @@
+.card {
+    background-color: var(--bg-color);
+    width: 500px;
+    padding: 30px 20px;
+    border: 1px solid transparent;
+    transition: var(--main-transition);
+    border-radius: 5px;
+}
+.card:hover {
+    border-color: var(--main-color);
+}
+.card div {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 4px;
+    color: var(--main-color);
+    font-size: 20px;
+    background-color: var(--black-color);
+}
+.card h3 {
+    margin: 10px 0;
+    color: var(--foreground);
+}
+.card p {
+    font-size: 14px;
+    color: var(--text-color);
+}

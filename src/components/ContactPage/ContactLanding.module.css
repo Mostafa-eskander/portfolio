@@ -1,0 +1,78 @@
+.contact {
+    background-color: var(--bg-secound-color);
+    padding: 200px 0 100px;
+}
+.heroSection {
+    margin-bottom: 200px;
+    animation: uptotop 1s ease;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: uptotop 1s ease;
+}
+.text {
+    width: 45%;
+}
+.text h2 {
+    color: var(--foreground);
+}
+.text p {
+    color: var(--text-color);
+    margin: 20px 0;
+}
+.text ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ways {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 4px;
+    color: var(--main-color);
+    font-size: 20px;
+    background-color: var(--black-color);
+}
+.subject h4 {
+    color: var(--foreground);
+}
+.subject span,
+.subject a {
+    display: inline-block;
+    color: var(--text-color);
+    margin-top: 5px;
+    transition: var(--main-transition);
+}
+.subject a:hover {
+    color: var(--main-color);
+}
+
+@keyframes uptotop {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        flex-wrap: wrap;
+        gap: 30px;
+    }   
+    .text {
+        width: 100%;
+    }
+}

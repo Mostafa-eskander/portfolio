@@ -1,0 +1,23 @@
+.skills {
+    padding: 50px 0 ;
+    background-color: var(--bg-secound-color);
+}
+.container {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.skills a {
+    justify-content: center;
+    margin: 30px auto;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+

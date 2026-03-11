@@ -1,0 +1,17 @@
+.heroSection {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.heroSection h2 {
+    color: var(--main-color);
+}
+.heroSection h3 {
+    font-size: 30px;
+    margin: 10px 0;
+    color: var(--font-color);
+}
+.heroSection p {
+    color: var(--text-color);
+    font-size: 18px;
+}

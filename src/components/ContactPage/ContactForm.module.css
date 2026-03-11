@@ -1,0 +1,49 @@
+.form {
+    border: 1px solid var(--rate-color);
+    border-radius: 10px;
+    padding: 30px;
+    width: 45%;
+    transition: var(--main-transition);
+}
+.form p label {
+    display: block;
+    margin: 10px 0;
+    color: var(--foreground);
+}
+.form textarea,
+.form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: var(--rate-color);
+    transition: var(--main-transition);
+    color: var(--foreground);
+}
+.form textarea:focus,
+.form input:focus {
+    border: 1px solid var(--main-color);
+}
+.form textarea {
+    resize: vertical; 
+}    
+.form button {
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    cursor: pointer;
+    transition: var(--main-transition);
+}
+.form button:hover {
+    background-color: var(--secound-color);
+}
+
+@media (max-width: 992px) {
+    .form {
+        width: 100%;
+    }
+}

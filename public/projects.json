@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Customer Management Frontend",
+        "src": "./customer-management.png",
+        "shortDes": "This is a Customer Management System (Frontend) built with React.js...",
+        "longDes" : "This is a Customer Management System (Frontend) built with React.js, designed to help businesses manage and track their customers efficiently. The project focuses on:Adding, editing, and deleting customer information,Viewing customer details in a clean dashboard and Responsive design for desktop and mobile",
+        "Skills": ["React","JavaScript","CSS Modules","REST API"],
+        "link": "https://customer-management-sooty.vercel.app/"
+    },
+    {
+        "title": "e-commerce-nextjs",
+        "src": "./e-commerce.png",
+        "shortDes": "Elegant Clothing is a modern and responsive fashion e-commerce web...",
+        "longDes": "Elegant Clothing is a modern and responsive fashion e-commerce web application built with React. It allows users to browse stylish clothing collections, explore product details, and enjoy a clean, elegant shopping experience.",
+        "Skills": ["Next.js","React","CSS Modules","REST API"],
+        "link": "https://e-commerce-nextjs-eight-phi.vercel.app/"    
+    },
+    {
+        "title": "Elegant Clothing",
+        "src": "./elegant-clothing.png",
+        "shortDes": "This is a full-featured e-commerce web application built with Next.js...",
+        "longDes" : "This is a full-featured e-commerce web application built with Next.js, designed to provide a smooth and modern shopping experience. It is fully responsive, working seamlessly across all devices. The project focuses on:Browsing products,Product detail pages and Shopping cart management",
+        "Skills": ["React","CSS Modules","JS"],
+        "link": "https://elegant-clothing-black.vercel.app/"
+    },
+    {
+        "title": "Food App",
+        "src": "./food-app.png",
+        "shortDes": "Food App is a modern and responsive food ordering web application built...",
+        "longDes": "Food App is a modern and responsive food ordering web application built with React. It allows users to browse meals, view details, and manage their cart with a clean and interactive user experience.",
+        "Skills": ["React","CSS Modules","JS","React Context API"],
+        "link": "https://food-app-five-beta.vercel.app/"
+    },
+    {
+        "title": "Events App",
+        "src": "./event-front-end.png",
+        "shortDes": "Events App is a modern and responsive event management web application...",
+        "longDes": "Events App is a modern and responsive event management web application built with React. It allows users to browse events, view event details, and interact with a clean and structured interface. The application demonstrates modern React practices and component-based architecture.",
+        "Skills": ["React","CSS Modules","JS","Vite"],
+        "link": "https://events-front-end.vercel.app/events"
+    },
+    {
+        "title": "Events Management App",
+        "src": "./events-management.png",
+        "shortDes": "Events Management App is a modern and responsive web application built...",
+        "longDes": "Events Management App is a modern and responsive web application built with React. It allows users to browse events, manage event-related data, and interact with a clean and structured user interface. The app demonstrates modern React architecture and best practices.",
+        "Skills": ["React","CSS Modules","JS","Vite"],
+        "link": "https://events-managements.vercel.app/"
+    },
+    {
+        "title": "Next.js Course Demo",
+        "src": "./nextJs-course-demo.png",
+        "shortDes": "A modern Next.js demo application built as part of a learning course to...",
+        "longDes": "A modern Next.js demo application built as part of a learning course to practice core Next.js concepts such as routing, layouts, components, and deployment.",
+        "Skills": ["React","Next.js","CSS Modules","JS"],
+        "link": "https://nextjs-course-demo-ruddy-delta.vercel.app/"
+    },
+    {
+        "title": "Food Order App",
+        "src": "./food-order.png",
+        "shortDes": "Food Order App is a modern and responsive web application built with...",
+        "longDes": "Food Order App is a modern and responsive web application built with React. It allows users to browse meals, add items to their cart, and manage their food orders with a clean and interactive user interface. The app demonstrates modern React concepts such as component-based architecture and state management.",
+        "Skills": ["React","CSS Modules","JS","React Context API"],
+        "link": "https://food-order-two-nu.vercel.app/"
+    },
+    {
+        "title": "Place Picker",
+        "src": "./place-picker.png",
+        "shortDes": "Place Picker is a React web application that allows users to select...",
+        "longDes": "Place Picker is a React web application that allows users to select, view, and manage locations efficiently. It provides a clean and interactive interface with features for adding, deleting, and tracking places.",
+        "Skills": ["React","CSS Modules","JS"],
+        "link": "https://place-picker-blue.vercel.app/"
+    }
+]

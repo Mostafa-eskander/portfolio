@@ -1,0 +1,21 @@
+.products {
+    padding: 50px 0;
+    background-color: var(--bg-color);
+}
+.products h1 {
+    color: var(--font-color);
+}
+.container {
+    margin: 100px auto 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.card {
+    width: 45%;
+}
+.linkBtn {
+    margin: 40px auto;
+}

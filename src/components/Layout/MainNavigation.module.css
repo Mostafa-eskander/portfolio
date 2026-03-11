@@ -1,0 +1,113 @@
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: var(--header-color);
+    padding: 15px 0;
+    border-bottom: 1px solid var(--border-color);
+    z-index: 100;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h2 {
+    font-weight: 400;
+    color: var(--foreground);
+}
+.logo h2 span {
+    color: var(--main-color);
+}
+.list {
+    display: flex;
+    align-items: center;
+}
+.list div p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    transition: var(--main-transition);
+    border-radius: 4px;
+}
+.list div p:hover {
+    background-color: var(--main-color);
+}
+.list div p svg {
+    color: var(--foreground);
+}
+.showbar:hover svg,
+.list div p:hover svg {
+    color: #000;
+}
+.showbar {
+    display: none;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: var(--main-transition);
+    color: var(--foreground);
+    cursor: pointer;
+}
+.showbar:hover {
+    background-color: var(--main-color);
+}
+.list ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.list ul span svg {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    color: var(--foreground);
+    cursor: pointer;
+}
+.list ul a {
+    color: var(--text-color);
+    transition: var(--main-transition);
+}
+.list ul a:hover {
+    color: var(--main-color);
+}
+.list ul a.active {
+    color: var(--main-color);
+}
+
+@media (max-width: 786px) {
+    .list {
+        gap: 0px;
+    }
+    .list ul {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -200%;
+        text-align: center;
+        gap: 50px;
+        width: 400px;
+        background-color: var(--bg-color);
+        transition: 0.5s;
+    }
+    .list ul.listActive {
+        right: 0;
+    }
+    .list ul span svg {
+        display: block;
+    }
+    .showbar {
+        display: block;
+    }
+}
+@media (max-width: 500px) {
+    .list ul {
+        width: 100%;
+    }
+}

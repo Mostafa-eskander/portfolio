@@ -1,0 +1,40 @@
+.skills {
+    padding: 150px 0 0;
+    background-color: var(--bg-color);
+}
+.skills h2 {
+    animation: uptotop 1s ease;
+} 
+.skills h3 {
+    animation: uptotop 1s ease;
+}
+.skills p {
+    animation: uptotop 1s ease;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rateSkills {
+    width: 45%;
+    animation: uptotop 1s ease;
+}
+
+@keyframes uptotop {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 786px) {
+    .rateSkills {
+        width: 100%;
+    }
+}
+

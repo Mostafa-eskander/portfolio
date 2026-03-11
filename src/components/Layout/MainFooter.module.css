@@ -1,0 +1,37 @@
+.footer {
+    background-color: var(--bg-color);
+    padding: 50px 0 50px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text h3 {
+    color: var(--foreground);
+}
+.text h3 span {
+    color: var(--main-color);
+}
+.text p {
+    color: var(--text-color);
+    margin: 15px 0;
+}
+.links {
+    display: flex;
+    gap: 30px;
+}
+.links a {
+    color: var(--text-color);
+    font-size: 20px;
+    transition: var(--main-transition);
+}
+.links a:hover {
+    color: var(--main-color);
+}
+.endText {
+    width: fit-content;
+    margin: 50px auto 0;
+    text-align: center;
+    color: var(--text-color);   
+}
