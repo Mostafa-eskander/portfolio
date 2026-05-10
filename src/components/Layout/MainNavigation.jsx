@@ -8,13 +8,13 @@ import classes from './MainNavigation.module.css';
 import { useEffect, useState } from "react";
 
 export default function MainNavigation() {
-    const [dark,setDark] = useState(false);
+    const [dark,setDark] = useState(true);
     const [showNav,setShowNav] = useState(false);
 
     useEffect(() => {
         const savedMode = localStorage.getItem('theme');
 
-        if(savedMode === 'dark') {
+        if(dark) {
             document.documentElement.classList.add('dark');
             setDark(true);
         };

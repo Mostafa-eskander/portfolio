@@ -16,7 +16,7 @@ export default function LandingPgae() {
                 <p>I'm a passionate Front-End Developer who loves building modern, responsive, and user-friendly web applications.</p>
                 <div className={classes.button}>
                     <Link to="/projects" className={classes.projectBtn}>View Projects <FaCaretRight /></Link>
-                    <Link to="./Frontend-Developer.docx" download target="_blank" className={classes.downlaodBtn}>Download CV <FaDownload /></Link>
+                    <Link to="./Mostafa_mahmoud_CV.pdf" download target="_blank" className={classes.downlaodBtn}>Download CV <FaDownload /></Link>
                     <Button link="/contact" className={classes.contactBtn}>Contact Me</Button>
                 </div>
             </div>
