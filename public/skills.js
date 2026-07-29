@@ -29,13 +29,9 @@ export const FRONTEND = {
 }
 
 
-export const Database_Tools = {
+export const Tools = {
     title: 'Database & Tools',
     skills: [
-        {
-            skillTitle: 'SQL',
-            skillWidth: '70%'
-        },
         {
             skillTitle: 'Git',
             skillWidth: '80%'
@@ -84,8 +80,6 @@ export const SKILLS=[
     'JavaScript',
     'Tailwind CSS',
     'HTML',
-    'CSS',
-    'SQL',
     'Git',
     'GitHub',
     'VS Code',

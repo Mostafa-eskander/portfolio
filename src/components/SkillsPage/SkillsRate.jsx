@@ -1,4 +1,4 @@
-import { Database_Tools, FRONTEND, UIUX_Performance } from '../../../public/skills';
+import { Tools, FRONTEND, UIUX_Performance } from '../../../public/skills';
 import CardSkills from '../UI/CardSkills';
 import HeroSection from '../UI/HeroSection';
 import classes from './SkillsRate.module.css';
@@ -19,8 +19,8 @@ export default function SkillsRate() {
                 />
                 <CardSkills 
                     className={classes.rateSkills}
-                    title={Database_Tools.title}
-                    skills={Database_Tools.skills}
+                    title={Tools.title}
+                    skills={Tools.skills}
                 />
                 <CardSkills 
                     className={classes.rateSkills}
