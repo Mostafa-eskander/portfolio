@@ -12,7 +12,7 @@ export default function LandingProjects() {
     useEffect(() => {
         async function getProject() {
             try{
-                const response = await fetch('./projects.json');
+                const response = await fetch('/projects.json');
                 if(!response.ok) {
                     throw new Error('Failed to fetch data');
                 }
@@ -42,7 +42,7 @@ export default function LandingProjects() {
                         title={project.title}
                         description={project.shortDes}
                         skills={project.Skills}
-                        link={`${project.id}`}
+                        link={`projects/${project.id}`}
                     />
                 ))}
             </div>

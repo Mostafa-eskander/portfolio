@@ -36,7 +36,7 @@ export default function AllProjects() {
 }
 
 export async function loader() {
-    const response = await fetch('./projects.json');
+    const response = await fetch('/projects.json');
     if(!response.ok) {
         throw new Error('Failed to fetch data');
     }
