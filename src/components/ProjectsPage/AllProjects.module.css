@@ -8,7 +8,7 @@
 }
 .projects {
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
     gap: 30px;
     animation: uptotop 1s ease;

@@ -92,7 +92,7 @@ export default function MainNavigation() {
                                 isActive ? classes.active : undefined
                             }
                             >
-                                Skills
+                                My Skills
                             </NavLink>
                         </li>
                         <li>
@@ -103,7 +103,7 @@ export default function MainNavigation() {
                                 isActive ? classes.active : undefined
                             }
                             >
-                                Projects
+                                My Projects
                             </NavLink>
                         </li>
                         <li>

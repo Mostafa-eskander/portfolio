@@ -12,7 +12,7 @@ export default function AllProjects() {
                 <HeroSection 
                     definition="Portfolio"
                     title="My Projects"
-                    description="A collection of production-ready applications showcasing front-end development expertise"
+                    description="A selection of web applications and digital experiences I’ve built using modern frontend technologies."
                 />
             </div>
             <div className="container">
@@ -20,12 +20,13 @@ export default function AllProjects() {
                     {projects.map((project) => (
                         <ProjectsCard 
                             className={classes.project}
-                            key={project.title}
+                            key={project.id}
                             title={project.title}
                             src={project.src}
-                            description={project.shortDes}
+                            description={project.description}
                             skills={project.Skills}
-                            link={project.link}
+                            Key_Features={project.Key_Features}
+                            link={`${project.id}`}
                         />
                     ))}
                 </ul>

@@ -12,11 +12,14 @@ export default function ProjectsCard(props) {
                 <p>{props.description}</p>
             </div>
             <div className={classes.skills}>
-                {props.skills.map((skill) => (
-                    <button key={skill}>{skill}</button>
-                ))}
+                <h3>Skills</h3>
+                <div className={classes.skillsBtn}>
+                    {props.skills.map((skill) => (
+                        <button key={skill}>{skill}</button>
+                    ))}
+                </div>
             </div>
-            <Link to={props.link} className={classes.btn}>View Project</Link>
+            <Link to={props.link} className={classes.btn}>Read Details</Link>
         </div>
     )
 }

@@ -10,23 +10,23 @@ import Card from "../UI/Card";
 const ABOUTSKILLS = [
     {
         icon: <SiLucide />,
-        title: 'Quality First',
-        description: 'Every feature is built with scalability, maintainability, and real production usage in mind — not just demos.'
+        title: 'Clean & Maintainable Code',
+        description: 'I write organized and reusable code that makes applications easier to maintain and evolve.'
     },
     {
         icon: <FiZap />,
-        title: 'Performance Driven',
-        description: 'From database queries to frontend rendering, performance is always a priority in my applications.'
+        title: 'Performance',
+        description: 'I care about fast loading times, efficient rendering, and smooth user interactions.'
     },
     {
         icon: <MdLightbulb />,
-        title: 'Continuous Learning',
-        description: 'I constantly evolve with modern stacks like Next.js and prepare for mobile development with React Native.'
+        title: 'User Experience',
+        description: 'I build responsive interfaces that are intuitive and enjoyable to use across devices.'
     },
     {
         icon: <IoCodeSlashOutline />,
-        title: 'Clean Architecture',
-        description: 'I follow clean architecture principles to build systems that are easy to scale, debug, and extend.'
+        title: 'Continuous Improvement',
+        description: 'I continuously learn and improve my skills through real-world projects and modern web technologies.'
     },
 ]
 
@@ -35,7 +35,7 @@ export default function AboutSkills() {
         <section className={classes.aboutSkills}>
             <HeroSection 
                 definition="My Approach"
-                title="Values & Principles"
+                title="How I Build Better Web Experiencess"
                 description="The mindset I follow when building real-world applications"
             />
             <div className={`container ${classes.container}`}>

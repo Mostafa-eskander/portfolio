@@ -20,14 +20,8 @@
     animation: uptotop 1s;
 }
 .container h2 {
-    font-size: 50px;
+    font-size: 40px;
     color: var(--main-color);
-    animation: uptotop 1s;
-}
-.container h5 {
-    font-size: 30px;
-    margin: 20px 0;
-    color: var(--foreground);
     animation: uptotop 1s;
 }
 .container p {
@@ -35,9 +29,9 @@
     font-size: 18px;
     line-height: 25px;
     animation: uptotop 1s;
+    margin: 20px 0 40px;
 }
 .button {
-    margin: 40px 0 20px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -8,7 +8,7 @@ export default function SkillsStack() {
             <HeroSection
                 definition="Tech Stack" 
                 title="Technologies I Work With"
-                description="Modern tools and frameworks for building exceptional digital products"
+                description="My toolkit helps me build responsive interfaces, smooth user experiences, and modern web applications."
             />
             <div className="container">
                 <ul className={classes.skills}>

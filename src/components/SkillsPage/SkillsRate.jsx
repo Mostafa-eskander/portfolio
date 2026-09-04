@@ -8,8 +8,8 @@ export default function SkillsRate() {
         <div className={classes.skills}>
             <HeroSection
                 definition='Technical Skills'
-                title='Skills & Expertise'
-                description='A comprehensive toolkit for building modern, production-ready web applications'
+                title='My Skills'
+                description='Technologies I use to build modern, responsive, and reliable web applications'
             />
             <div className={`container ${classes.container}`}>
                 <CardSkills 

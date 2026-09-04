@@ -3,72 +3,64 @@ export const FRONTEND = {
     skills: [
         {
             skillTitle: 'React',
-            skillWidth: '95%'
         },
         {
             skillTitle: 'Next.js',
-            skillWidth: '80%'
-        },
-        {
-            skillTitle: 'TypeScript',
-            skillWidth: '70%'
         },
         {
             skillTitle: 'JavaScript',
-            skillWidth: '95%'
         },
         {
-            skillTitle: 'HTML/CSS',
-            skillWidth: '95%'
+            skillTitle: 'HTML',
+        },
+        {
+            skillTitle: 'CSS',
         },
         {
             skillTitle: 'Tailwind CSS',
-            skillWidth: '85%'
+        },
+        {
+            skillTitle: 'React Router',
         },
     ]
 }
 
 
 export const Tools = {
-    title: 'Database & Tools',
+    title: 'Tools & Workflow',
     skills: [
         {
             skillTitle: 'Git',
-            skillWidth: '80%'
         },
         {
             skillTitle: 'GitHub',
-            skillWidth: '90%'
         },
         {
-            skillTitle: 'VS Code',
-            skillWidth: '95%'
+            skillTitle: 'Vite',
         },
         {
-            skillTitle: 'Context API',
-            skillWidth: '80%'
+            skillTitle: 'npm',
+        },
+        {
+            skillTitle: 'Responsive Design',
         },
     ]
 };
 
 export const UIUX_Performance = {
-    title: 'UI/UX & Performance',
+    title: 'State & Data',
     skills: [
         {
-            skillTitle: 'Responsive Design',
-            skillWidth: '90%'
+            skillTitle: 'Redux Toolkit',
         },
         {
-            skillTitle: 'Design Systems',
-            skillWidth: '80%'
+            skillTitle: 'Zustand',
         },
         {
-            skillTitle: 'Performance Optimization',
-            skillWidth: '85%'
+            skillTitle: 'TanStack Query',
         },
         {
-            skillTitle: 'Clean UI Architecture',
-            skillWidth: '80%'
+            skillTitle: 'REST APIs',
         },
     ]
 };
@@ -76,7 +68,6 @@ export const UIUX_Performance = {
 export const SKILLS=[
     'React',
     'Next.js',
-    'TypeScript',
     'JavaScript',
     'Tailwind CSS',
     'HTML',

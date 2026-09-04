@@ -7,6 +7,7 @@ import SkillsPage from "./pages/Skills"
 import ProjectsPage from "./pages/Projects"
 import { loader as projectsLoader } from "./components/ProjectsPage/AllProjects"
 import ContactPage from "./pages/Contact"
+import ProductDetails, { projectDetailsLoader } from "./components/ProjectsPage/ProductDetails"
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,13 @@ const router = createBrowserRouter([
       {index: true,element: <HomePage />},
       {path: 'about',element: <AboutPage />},
       {path: 'skills',element: <SkillsPage />},
-      {path: 'projects',element: <ProjectsPage />,loader: projectsLoader},
+      {
+        path: 'projects',
+        children: [
+          {index: true,element: <ProjectsPage />,loader: projectsLoader},
+          {path: ':id', element: <ProductDetails />,loader: projectDetailsLoader}
+        ]
+      },
       {path: 'contact',element: <ContactPage />}
     ]
   }

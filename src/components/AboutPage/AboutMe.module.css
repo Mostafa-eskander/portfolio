@@ -10,17 +10,17 @@
 .text {
     animation: uptext 1s ease-in-out;
 }
-.text h2 {
+.text h1 {
     color: var(--main-color);
 }
-.text h1 {
+.text h4 {
     margin: 30px 0;
-    font-size: 45px;
+    font-size: 20px;
     color: var(--foreground);
 }
 .text p {
-    font-size: 20px;
     color: var(--text-color);
+    margin: 20px 0;
 }
 .image img {
     width: 300px;

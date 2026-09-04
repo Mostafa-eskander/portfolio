@@ -9,10 +9,9 @@ export default function CardSkills(props) {
                     <li key={skill.skillTitle}>
                         <div className={classes.text}>
                             <h4>{skill.skillTitle}</h4>
-                            <span>{skill.skillWidth}</span>                            
                         </div>
                         <div className={classes.rate}>
-                            <span style={{width: `${skill.skillWidth}`}}></span>
+                            <span></span>
                         </div>
                     </li>
                 ))}
