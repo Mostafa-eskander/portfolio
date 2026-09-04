@@ -42,7 +42,7 @@ export default function LandingProjects() {
                         title={project.title}
                         description={project.shortDes}
                         skills={project.Skills}
-                        link={project.link}
+                        link={`${project.id}`}
                     />
                 ))}
             </div>
